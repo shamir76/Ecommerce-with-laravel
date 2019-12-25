@@ -16,4 +16,4 @@
 		</div>
     </section>
     
-    @include('template-parts.footer')
+	@include('template-parts.footer')

@@ -55,7 +55,7 @@
                     </div>
                     
                     <div class="col-sm-3">
-                        <div <footerclass="video-gallery text-center">
+                        <div class="video-gallery text-center">
                             <a href="#">
                                 <div class="iframe-img">
                                     <img src="images/home/iframe4.png" alt="" />
@@ -157,12 +157,13 @@
 </footer><!--/Footer-->
 
 
-
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.scrollUp.min.js"></script>
-<script src="js/price-range.js"></script>
-<script src="js/jquery.prettyPhoto.js"></script>
-<script src="js/main.js"></script>
+<script src="{{asset('js/js/jquery.js')}}"></script>
+<script src="{{asset('js/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('js/js/jquery.scrollUp.min.js')}}"></script>
+<script src="{{asset('js/js/price-range.js')}}"></script>
+<script src="{{asset('js/js/jquery.prettyPhoto.js')}}"></script>
+<script src="{{asset('js/js/main.js')}}"></script>
+{{-- <script src="{{asset('js/app.js')}}"></script> --}}
+{{-- <script src="{{asset('js/all.js')}}"></script> --}}
 </body>
 </html>
