@@ -21,3 +21,7 @@ Route::get('products', 'PagesController@index');
 Auth::routes();
 
 Route::get('/admin', 'DashboardController@index');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
